@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;
+
+}
+a, a:hover{
+	text-decoration: none;
+
+}
+.green{
+	width: 1680px;
+	height: 150px;
+	background: green;
+	position: relative;
+	border-radius: 5%;
+
+
+}
+.rad{
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	right: 30%;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 50%;
+	right: -100px;
+	transition: 1s;
+
+}
+.fb:hover{
+	right: -1px;
+	cursor: pointer;
+}
+.funzone{
+	width: 700px;
+	height: 350px;
+	margin: 30px 0px;
+	border-radius: 5%;
+
+}
+h2{
+	font-size: 20px;
+	margin: 20px 0px;
+}
+.ALLCATOON{
+	width: 700px;
+	height: 350px;
+	margin: 30px 0px;
+	border-radius: 5%;
+}
+.social-media{
+	width: 100%;
+	background: gray;
+
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 10px;
+	
+}
+.social-icons li a .fa-facebook{
+      background: #1094F4;
+      color: #FFFFFF;
+}
+.social-icons li a .fa-twitter{
+	background: #FFFFFF;
+	color: #1D9BF0;
+}
+.social-icons li a .fa-youtube{
+	background: #FF0000;
+	color: #FFFFFF;
+}
+
+.social-icons li a .fa:hover{
+	background: gold;
+	color: white;
+}
+
